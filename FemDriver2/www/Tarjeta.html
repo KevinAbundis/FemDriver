@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Tarjeta</title>
+    </head>
+    <body>
+
+        <header>
+            <center>
+                <img id="ImagenFemDriver" src="img/FemDriver.png">
+            </center>
+        </header>
+
+        <article>
+            <a href="Forma_Pago.html"><input type="image" src="img/salir.png" width="30" height="30" style="float: right;"></a> 
+        </article>
+
+        <br><br>
+
+        <article>           
+
+            <form action="Tarjeta_Confirmacion.html" name="pago_tarjeta" method="post">
+                <center>
+                    <p>Nombre completo del titular </p>
+                </center>
+                <center>
+                    <input type="text" name="nombre" id="nombre" maxlength="40" required placeholder="Ingresa nombre">
+                </center>
+                
+                <center>
+                    <p>Número de tarjeta </p>
+                </center>
+                <center>
+                    <input type="tel" name="tarjeta" id="tarjeta" maxlength="16" required placeholder="Ingresa número de tarjeta">
+                </center>
+                
+                <center>
+                    <p>Fecha de expiración</p>
+                </center>
+                <center>
+                    <label for="mes">Mes y año:</label>
+                </center>
+                <center>
+                    <input type="month" name="mes" id="mes" required>
+                </center>
+                
+                <center>
+                    <p>Código de seguridad </p>
+                </center>
+                <center>
+                    <input type="tel" name="seguridad" id="seguridad" maxlength="3" placeholder="Ingresa código de seguridad" required >
+                </center>
+                
+                
+                <center>
+                    <p>Monto </p>
+                </center>
+                <center>
+                    <input type="tel" name="monto" id="monto" value="200.00" readonly>
+                </center>
+
+                <br>
+
+                <input type="submit" name="aceptar" value="Aceptar" onclick="tarjeta()" style="float: right;">
+
+                <br><br>
+                
+
+            </form>
+
+        </article>
+
+       <footer> Instituto Tecnológico de Acapulco</footer>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/tarjeta.js"></script>
+    </body>
+</html>

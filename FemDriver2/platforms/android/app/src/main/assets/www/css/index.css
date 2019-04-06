@@ -1,0 +1,91 @@
+body {
+    background-color: #D78FDA;
+    font-family: serif;
+    font-size: 20px;
+}
+
+#bienvenida {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #F8C5EC;
+    border-radius: 20px;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 25px;
+
+}
+
+input {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #F8C5EC;
+    margin: 10px 0px;
+    padding: 10px 10px; 
+    border-radius: 10px;
+    color: black;
+}
+
+
+#ImagenFemDriver {
+    max-width: 100%;
+}
+
+#entrar {
+    float: right;
+}
+
+
+
+
+#menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: #383636;
+    
+   background: linear-gradient(to bottom, rgba(252,236,252,1) 2%,rgba(252,236,252,1) 2%,rgba(255,124,216,1) 86%);
+    font-size: 20px;
+    
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-top-left-radius:  6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.clase {
+    display: inline-block;
+}
+
+.ajustarimagen {
+    max-width: 100%;
+}
+

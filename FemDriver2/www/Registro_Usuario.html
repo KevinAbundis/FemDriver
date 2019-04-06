@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Registro_Usuario</title>
+    </head>
+    <body>
+
+        <header>
+            <center>
+                <img id="ImagenFemDriver" src="img/FemDriver.png">
+            </center>
+        </header>
+
+       <article>
+            
+
+            <form name="Registrar-Usuario" action="Codigo_Confirmacion.html" method="post">
+                <center>
+                    <p>Usuario*</p>
+                </center>
+                <center>
+                    <input type="text" name="usuario" id="usuario" placeholder="Ingresa usuario" required maxlength="15">
+                </center>
+
+                <center>
+                    <p>Nombre (s)*</p>
+                </center>
+                <center>
+                    <input type="text" name="nombres" id="nombres" placeholder="Ingresa nombre (s)" required maxlength="30">
+                </center>
+
+                <center>
+                    <p>Apellido Paterno*</p>
+                </center>
+                <center>
+                    <input type="text" name="a_paterno" id="a_paterno" placeholder="Ingresa apellido paterno" required maxlength="15">
+                </center>
+
+                <center>
+                    <p>Apellido Materno*</p>
+                </center>
+                <center>
+                    <input type="text" name="a_materno" id="a_materno" placeholder="Ingresa apellido materno" required maxlength="15">
+                </center>
+
+                <center>
+                    <p>Número de celular*</p>
+                </center>
+                <center>
+                    <input type="tel" name="celular" id="celular" placeholder="Ingresa número" required maxlength="10">
+                </center>
+
+                <center>
+                    <p>Correo Electrónico</p>
+                </center>
+                <center>
+                    <input type="email" name="correo" id="correo" placeholder="Ingresa correo electrónico" maxlength="40">
+                </center>
+
+                <center>
+                    <p>Contraseña*</p>
+                </center>
+                <center>
+                    <input type="password" name="contrasena" id="contrasena" placeholder="Ingresa contraseña" required maxlength="10">
+                </center>
+
+                <center>
+                    <p>Confirmar contraseña*</p>
+                </center>
+                <center>
+                    <input type="password" name="contrasena" id="contrasena" placeholder="Confirma contraseña" required maxlength="10">
+                </center>
+                 
+                <br><br>
+                
+
+                <input type="submit" name="registrar" id="registrar" value="Registrar Usuario" style="float: right;">
+                
+            </form>
+
+            <button id="registrar" style="float: left;"> <a href="index.html"> Regresar </a> </button>
+       </article>
+
+       <br><br><br>
+       <footer> Instituto Tecnológico de Acapulco</footer>
+
+        
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
